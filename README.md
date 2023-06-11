@@ -11,16 +11,18 @@
 `source venv/bin/activate`
 
 3. Импортируем библиотеки 
+
  `pip install -r requirements.txt`
 
 4. Запускаем программу
+
 `python main.py`
 
 ## Ручная установка зависимостей (если понадобиться):
-pip install pyttsx3
-pip install SpeechRecognition
-pip install pyaudio
-pip install clipboard
+`pip install pyttsx3` 
+`pip install SpeechRecognition` 
+`pip install pyaudio` 
+`pip install clipboard` 
 
 ## Подробное описание программы в main.py:
 Данный код выполняет функции голосового помощника, который обрабатывает ввод пользователя и предоставляет соответствующие ответы и команды.
